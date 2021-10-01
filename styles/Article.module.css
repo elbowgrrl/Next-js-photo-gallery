@@ -5,16 +5,28 @@
   display: flex;
   filter: drop-shadow(10px 10px 4px rgb(140, 136, 136));
   flex-direction: column;
+  justify-content: space-between;margin-bottom: 12px;
+  height: 420px;
+  width: 450px;
+  margin: 20px;
+}
+
+.footer {
+  background-color:rgb(206, 205, 202);
+  border-radius: 12px;
+  border-top-right-radius: 0%;
+  border-top-left-radius: 0%;
+  border: 3px solid #61E8EB;
+  border-top: rgb(206, 205, 202);
+  display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  max-height: 25%;
-  width: 25%;
-  flex-grow: 1;
+  padding: 12px;
+  width: 448px;
+  height: 100px;
 }
 
 .span {
   display: flex;
 }
+
+
