@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import data from "/data/landscapes.json";
 
 export async function getStaticProps() {
-  //may need to await data
+  //This could be an API call instead of a file read.
   const allData = await data;
 
   return {

@@ -1,9 +1,9 @@
 .article {
-  background-color:rgb(206, 202, 202);
-  border: 3px solid #61E8EB;
+  background-color:rgb(232, 230, 226);
+  border: 3px solid #a5a58d;
   border-radius: 12px;
   display: flex;
-  filter: drop-shadow(10px 10px 4px rgb(140, 136, 136));
+  filter: drop-shadow(5px 5px 4px rgb(140, 136, 136));
   flex-direction: column;
   justify-content: space-between;
   height: 150px;
