@@ -1,0 +1,16 @@
+.article {
+  background-color:rgb(206, 202, 202);
+  border: 3px solid #61E8EB;
+  border-radius: 12px;
+  display: flex;
+  filter: drop-shadow(10px 10px 4px rgb(140, 136, 136));
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-height: 25%;
+  width: 85%;
+  flex-grow: 1;
+}
