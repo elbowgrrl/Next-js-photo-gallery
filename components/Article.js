@@ -1,7 +1,7 @@
 import styles from "../styles/Article.module.css";
 import Image from "next/image";
 
-export default function Article() {
+export default function Article(props) {
   return (
     <article className={styles.article}>
       <body>
@@ -14,12 +14,9 @@ export default function Article() {
         />
       </body>
       <footer className={styles.footer}>
-        <span className={styles.span}>Nandhaka Pieris</span>
-        <span className={styles.span}>2015-05-01</span>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <span className={styles.span}>{props.title}</span>
+        <span className={styles.span}>{props.date}</span>
+        <p>{props.description}</p>
       </footer>
     </article>
   );

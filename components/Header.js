@@ -1,10 +1,10 @@
 import styles from '../styles/Header.module.css'
 import Image from "next/image"
 
-export default function Header() {
+export default function Header(props) {
   return(
   <article className={styles.article}>
-    <h1>James Thomas</h1>
+    <h1>{props.name}</h1>
     <Image
           alt="gallery image"
           src="/img/profile.jpeg"
