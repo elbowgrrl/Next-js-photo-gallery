@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Article from "../components/Article";
+import GalleryCard from "../components/GalleryCard";
 import Header from "../components/Header";
 import data from "/data/landscapes.json";
 
@@ -36,7 +36,7 @@ export default function Home({ allData }) {
       </section>
       <main className={styles.main}>
         {albumData.map((data) => (
-          <Article 
+          <GalleryCard 
           key={data.id}
           img={data.img}
           date={data.date}
