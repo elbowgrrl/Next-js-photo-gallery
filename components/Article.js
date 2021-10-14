@@ -1,13 +1,17 @@
 import styles from "../styles/Article.module.css";
 import Image from "next/image";
 
+//Use MUI cards
+
+//makeStylesHook for custom styling
+
 export default function Article(props) {
   return (
     <article className={styles.article}>
       <body>
       <Image
           alt="gallery image"
-          src="/img/landscape1.jpeg"
+          src={props.img}
           layout="fixed"
           width="400"
           height="300"
