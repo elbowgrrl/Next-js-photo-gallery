@@ -45,6 +45,7 @@ export default function Home({ allData }) {
             <Grid item xs={2} sm={4} md={4} key={data.id}>
             <GalleryCard
               key={data.id}
+              id={data.id}
               img={data.img}
               date={data.date}
               title={data.title}

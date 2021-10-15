@@ -12,10 +12,10 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 export default function GalleryCard(props) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card variant="outlined" sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        height="140"
+        height="240"
         image={props.img}
         alt={props.title}
       />
@@ -28,9 +28,12 @@ export default function GalleryCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        {/* <Button size="small" >Share</Button>
+        <Button size="small" variant="outlined">Learn More</Button> */}
+        <Button size="small" variant="contained" href={`/view/${props.id}`}>View</Button>
       </CardActions>
     </Card>
   );
 }
+
+//Button accepts onClick handler : https://mui.com/components/buttons/#handling-clicks
