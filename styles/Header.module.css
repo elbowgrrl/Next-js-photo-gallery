@@ -1,5 +1,5 @@
 .article {
-  background-color:rgb(232, 230, 226);
+  background-color: rgb(232, 230, 226);
   border: 3px solid #a5a58d;
   border-radius: 12px;
   display: flex;
@@ -7,6 +7,26 @@
   flex-direction: column;
   justify-content: space-between;
   height: 150px;
-  width: 1650px;
+  width: 91vw;
   flex-grow: 1;
 }
+
+.titleText {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+}
+
+.bodyText {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+

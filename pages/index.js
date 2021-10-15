@@ -32,6 +32,7 @@ export default function Home({ allData }) {
           bio={allData.bio}
           name={allData.name}
           email={allData.email}
+          phone={allData.phone}
           picture={allData.profile_picture}
         />
       </section>

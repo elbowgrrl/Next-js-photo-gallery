@@ -1,5 +1,3 @@
-import styles from "../styles/Article.module.css";
-import Image from "next/image";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -12,7 +10,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 export default function GalleryCard(props) {
   return (
-    <Card variant="outlined" sx={{ maxWidth: 345 }}>
+    <Card variant="outlined">
       <CardMedia
         component="img"
         height="240"
