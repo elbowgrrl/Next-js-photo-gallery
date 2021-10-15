@@ -4,23 +4,38 @@
   border-radius: 12px;
   display: flex;
   filter: drop-shadow(5px 5px 4px rgb(140, 136, 136));
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  height: 150px;
   width: 91vw;
   flex-grow: 1;
+  padding: 1.5vw;
 }
 
-.titleText {
+.pictureContainer {
+  display: flex;
+  width: 25%;
+  height: auto;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 1.5vw;
+  width: 75%;
+  height: auto;
+}
+
+.article h1 {
   margin: 0;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.334;
   letter-spacing: 0em;
 }
 
-.bodyText {
+.article span {
   margin: 0;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
@@ -28,5 +43,3 @@
   line-height: 1.43;
   letter-spacing: 0.01071em;
 }
-
-

@@ -5,7 +5,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 600px;
+  /* height: 600px; */
+  height: auto;
   background-image: linear-gradient(#ddbea9, #b7b7a4);
 }
 
