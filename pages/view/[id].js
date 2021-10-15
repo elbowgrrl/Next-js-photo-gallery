@@ -14,6 +14,8 @@ export async function getStaticProps() {
   };
 }
 
+//ToDo: return an array in the following format by mapping over album data
+
 export async function getStaticPaths() {
   // const photoIDs = getAllPhotoIds();
 
@@ -53,6 +55,8 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
+
+//ToDo: figure out how to render each image based on prop value
 
 const View = ({ allData }) => {
   const router = useRouter();
