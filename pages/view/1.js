@@ -14,46 +14,6 @@ export async function getStaticProps() {
   };
 }
 
-// export async function getStaticPaths() {
-//   // const photoIDs = getAllPhotoIds();
-
-//   return {
-//     paths: [
-//       {
-//         params: {
-//           id: "1",
-//         },
-//       },
-//       {
-//         params: {
-//           id: "2",
-//         },
-//       },
-//       {
-//         params: {
-//           id: "3",
-//         },
-//       },
-//       {
-//         params: {
-//           id: "4",
-//         },
-//       },
-//       {
-//         params: {
-//           id: "5",
-//         },
-//       },
-//       {
-//         params: {
-//           id: "6",
-//         },
-//       },
-//     ],
-//     fallback: false,
-//   };
-// }
-
 const View = ({ allData }) => {
   const router = useRouter();
   const { pid } = router.query;
