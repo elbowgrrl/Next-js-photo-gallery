@@ -11,12 +11,6 @@
   padding: 1.5vw;
 }
 
-.pictureContainer {
-  display: flex;
-  width: 25%;
-  height: auto;
-}
-
 .infoContainer {
   display: flex;
   flex-direction: column;
