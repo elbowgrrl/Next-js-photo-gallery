@@ -2,7 +2,7 @@
 ____________
 ### Built using Next.js and the Material UI Library.
 
-![Screenshot of App](https://i.imgur.com/ijrkf8p.png)
+![Screenshot of App](https://i.imgur.com/gQfDNww.png)
 
 To run the project locally with a development server:
 
