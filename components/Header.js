@@ -1,31 +1,17 @@
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
+import { Paper } from "@mui/material";
 
 export default function Header(props) {
   return (
-    <article className={styles.article}>
-      <div
-        style={{
-          borderRadius: "150px",
-          overflow: "hidden",
-          width: "300px",
-          height: "300px",
-        }}
-      >
-        <Image
-          alt="gallery image"
-          src="/img/profile.jpeg"
-          layout="responsive"
-          width="300"
-          height="300"
-        />
-      </div>
+    <Paper className={styles.article}>
+      <img className={styles.image} src="/img/profile.jpeg" />
       <div className={styles.infoContainer}>
         <h1>{props.name}</h1>
-        <div>{props.bio}</div>
-        <div>{props.phone}</div>
-        <div>{props.email}</div>
+        <span>{props.bio}</span>
+        <span>{props.phone}</span>
+        <span>{props.email}</span>
       </div>
-    </article>
+    </Paper>
   );
 }

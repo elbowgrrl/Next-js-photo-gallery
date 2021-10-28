@@ -22,21 +22,21 @@
 }
 
 .article h1 {
-  margin: 0;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5rem;
   line-height: 1.334;
   letter-spacing: 0em;
 }
 
 .article span {
-  margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.43;
-  letter-spacing: 0.01071em;
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
+.image {
+  max-width: 300px;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 600px) {
@@ -45,17 +45,34 @@
     align-items: center;
     justify-content: space-around;
   }
+
+  .image {
+    max-width: 150px;
+    padding: 11px;
+  }
+
+  .infoContainer {
+    width: 85%;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
   .article {
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
   }
 
   .infoContainer {
     justify-content: space-between;
-    width: 93%;
+    width: 95%;
+  }
+
+  .image {
+    max-width: 275px;
+    padding: 13px;
+  }
+
+  .infoContainer {
+    width: 89%;
   }
 }
