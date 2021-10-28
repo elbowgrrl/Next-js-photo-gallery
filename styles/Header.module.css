@@ -1,3 +1,4 @@
+
 .article {
   background-color: #E8E6E2;
   border: 3px solid #a5a58d;
@@ -36,4 +37,25 @@
   font-size: 0.875rem;
   line-height: 1.43;
   letter-spacing: 0.01071em;
+}
+
+@media screen and (max-width: 600px) {
+  .article {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .article {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .infoContainer {
+    justify-content: space-between;
+    width: 93%;
+  }
 }
