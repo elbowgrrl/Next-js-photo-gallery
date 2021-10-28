@@ -1,8 +1,8 @@
 import styles from "../styles/Header.module.css";
-import Image from "next/image";
 import { Paper } from "@mui/material";
 
 export default function Header(props) {
+
   return (
     <Paper className={styles.article}>
       <img className={styles.image} src="/img/profile.jpeg" />

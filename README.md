@@ -3,6 +3,7 @@ ____________
 ### Built using Next.js and the Material UI Library.
 
 ![Screenshot of App](https://i.imgur.com/gQfDNww.png)
+![Screenshot of App](https://i.imgur.com/53aOkEO.png)
 
 To run the project locally with a development server:
 
