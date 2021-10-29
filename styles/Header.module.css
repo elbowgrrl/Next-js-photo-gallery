@@ -48,12 +48,21 @@
 
   .image {
     max-width: 150px;
-    padding: 11px;
+    padding-top: 17px;
   }
 
   .infoContainer {
     width: 85%;
   }
+
+  .accordion {
+    background-color: #E8E6E2;
+    border: none;
+    filter: none;
+    width: 100%;
+    margin-bottom: 11px;
+  }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
